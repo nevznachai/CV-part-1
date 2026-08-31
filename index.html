@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergey CV</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="info">
+            <img src="img2.JPG" alt="sergeyphoto" class="avatar">
+
+            <div class="info-text">
+                <h1>Curriculum Vitae</h1>
+                <p><strong>Всем Привет!</strong> Это мое резюме.</p>
+                <p>Я изучаю программирование и пытаюсь войти в проффессию.</p>
+                <div style="display: flex; gap: 40px;">
+                    <div>
+                        <h4 style="margin-bottom: 8px;">Мои Резюме</h4>
+                        <div>
+                            <a href="https://career.habr.com/nevznachai" target="_blank">Хабр</a>
+                            |
+                            <a href="https://www.linkedin.com/in/sergey-goryachikh-488318258"
+                                target="_blank">Линкедин</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 style="margin-bottom: 8px;">Github</h4>
+                        <div>
+                            <a href="https://github.com/nevznachai" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card bg-yellow">
+            <h2>Хобби</h2>
+            <ol class="list">
+                <li>Видеоигры</li>
+                <li>Выпить кофейка</li>
+                <li> Погонять на тачке </li>
+            </ol>
+        </div>
+
+
+
+        <div class="card bg-green">
+            <h2>Опыт Работы</h2>
+            <table class="table">
+                <tr>
+                    <td>Декатлон</td>
+                    <td>Менеджер</td>
+                    <td>2017-2022</td>
+                </tr>
+                <tr>
+                    <td>Безработный</td>
+                    <td>Безработный</td>
+                    <td>2022-2022</td>
+                </tr>
+                <tr>
+                    <td>Авиасейлс</td>
+                    <td>Frontend Developer</td>
+                    <td>2022-2023</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card bg-red">
+            <h2> Проекты </h2>
+            <a href="secondPage.html">Посмотреть</a>
+        </div>
+
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше Имя:</label>
+                        <input type="text" id="name" placeholder="Введите Имя" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваш Email:</label>
+                        <input type="text" id="email" placeholder="Введите Email" />
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="message">Ваше Сообщение:</label>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="message" cols="10" rows="1"></textarea>
+                </div>
+
+                <input class="btn" type="submit" value="Связаться"
+                    onclick="alert('Спасибо что нажали!'); return false;">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
